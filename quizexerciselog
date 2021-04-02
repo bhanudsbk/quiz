@@ -1,0 +1,20 @@
+2021-04-02 09:52:41.882  INFO 3164848 --- [main] com.quiz.QuizApplication                 : Starting QuizApplication using Java 11.0.9 on PowerEdge-PC with PID 3164848 (C:\Users\admin\Downloads\quiz\target\classes started by admin in C:\Users\admin\Downloads\quiz)
+2021-04-02 09:52:41.885  INFO 3164848 --- [main] com.quiz.QuizApplication                 : No active profile set, falling back to default profiles: default
+2021-04-02 09:52:42.528  INFO 3164848 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=588ad59f-7915-353f-8c83-43b0dafab514
+2021-04-02 09:52:42.825  INFO 3164848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-02 09:52:42.835  INFO 3164848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-02 09:52:42.836  INFO 3164848 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 09:52:42.952  INFO 3164848 --- [main] o.a.c.c.C.[.[localhost].[/coding]        : Initializing Spring embedded WebApplicationContext
+2021-04-02 09:52:42.952  INFO 3164848 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1023 ms
+2021-04-02 09:52:43.230  INFO 3164848 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2021-04-02 09:52:43.231  INFO 3164848 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2021-04-02 09:52:43.636  INFO 3164848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/coding'
+2021-04-02 09:52:43.761  INFO 3164848 --- [main] com.quiz.QuizApplication                 : Started QuizApplication in 2.519 seconds (JVM running for 3.228)
+2021-04-02 09:52:47.328  INFO 3164848 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/coding]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 09:52:47.329  INFO 3164848 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-02 09:52:47.330  INFO 3164848 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-02 09:52:47.350  INFO 3164848 --- [http-nio-8080-exec-1] com.quiz.util.ServiceUtil                : getFiveFilmAndMusicQuizes::Initiating the client call from service layer...
+2021-04-02 09:52:47.356  INFO 3164848 --- [QuizThread-2] com.quiz.service.ExerciseServiceImpl     : getExercises::Calling Quiz Client with:amount: 5,category: 12 Thread: QuizThread-2
+2021-04-02 09:52:47.356  INFO 3164848 --- [QuizThread-1] com.quiz.service.ExerciseServiceImpl     : getExercises::Calling Quiz Client with:amount: 5,category: 11 Thread: QuizThread-1
+2021-04-02 09:52:55.340  INFO 3164848 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-04-02 09:52:55.433  INFO 3164848 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'taskExecutor'
